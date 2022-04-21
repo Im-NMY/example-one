@@ -2,40 +2,40 @@ package ru.skypro.Variables;
 
 public class Variables {
     public static void main(String[] args) {
-        System.out.println("Переменные");
-//задача №1
+        System.out.println("РџРµСЂРµРјРµРЅРЅС‹Рµ");
+//Р·Р°РґР°С‡Р° в„–1
         System.out.println("--------------------------------------------------");
-        System.out.println("Задача №1 - Типы переменных:");
+        System.out.println("Р—Р°РґР°С‡Р° в„–1 - РўРёРїС‹ РїРµСЂРµРјРµРЅРЅС‹С…:");
         System.out.println("  ");
-//Целочисленные:
+//Р¦РµР»РѕС‡РёСЃР»РµРЅРЅС‹Рµ:
         byte dataTypeOne = 127;
         short dataTypTwo = 32767;
         int dataTypThree = 2147483647;
         long dataTypFour = 9223372036854775807L;
-//С плавающей точкой:
+//РЎ РїР»Р°РІР°СЋС‰РµР№ С‚РѕС‡РєРѕР№:
         float dataTypFive = 3.4f;
         double dataTypSix = 1.7;
-//Символы:
+//РЎРёРјРІРѕР»С‹:
         char dataTypSeven = 0;
-//Логические:
+//Р›РѕРіРёС‡РµСЃРєРёРµ:
         boolean dataTypEight = true || false;
-        System.out.println("Целочисленные: byte; short; int; long.");
-        System.out.println("С плавающей точкой: float; double.");
-        System.out.println("Символы: char.");
-        System.out.println("Логические: boolean.");
-//задача №2
+        System.out.println("Р¦РµР»РѕС‡РёСЃР»РµРЅРЅС‹Рµ: byte; short; int; long.");
+        System.out.println("РЎ РїР»Р°РІР°СЋС‰РµР№ С‚РѕС‡РєРѕР№: float; double.");
+        System.out.println("РЎРёРјРІРѕР»С‹: char.");
+        System.out.println("Р›РѕРіРёС‡РµСЃРєРёРµ: boolean.");
+//Р·Р°РґР°С‡Р° в„–2
         System.out.println("--------------------------------------------------");
-        System.out.println("Задача №2 :");
+        System.out.println("Р—Р°РґР°С‡Р° в„–2 :");
         System.out.println("  ");
-        var boxerWeightOne = 78.2;      // вес боксера 1
-        var boxerWeightTwo = 82.7;      // вес боксера 2
+        var boxerWeightOne = 78.2;      // РІРµСЃ Р±РѕРєСЃРµСЂР° 1
+        var boxerWeightTwo = 82.7;      // РІРµСЃ Р±РѕРєСЃРµСЂР° 2
         var massOfBoxers = boxerWeightOne + boxerWeightTwo;
-        System.out.println(massOfBoxers + " кг - общий вес боксеров");
+        System.out.println(massOfBoxers + " РєРі - РѕР±С‰РёР№ РІРµСЃ Р±РѕРєСЃРµСЂРѕРІ");
         var boxerDifference = boxerWeightTwo - boxerWeightOne;
-        System.out.println(boxerDifference + " кг - разница веса боксеров");
-//задача №3
+        System.out.println(boxerDifference + " РєРі - СЂР°Р·РЅРёС†Р° РІРµСЃР° Р±РѕРєСЃРµСЂРѕРІ");
+//Р·Р°РґР°С‡Р° в„–3
         System.out.println("--------------------------------------------------");
-        System.out.println("Задача №3 :");
+        System.out.println("Р—Р°РґР°С‡Р° в„–3 :");
         System.out.println("  ");
         var bananas =5;
         var massOfBananas = bananas * 80;
@@ -46,46 +46,47 @@ public class Variables {
         var agg = 4;
         var massOfAggs = agg * 70;
         var massOfCocktailGram = massOfAggs + massOfBananas + massOfIceCream + massOfMilk;
-        System.out.println("Масса завтрака для спортсмена " + massOfCocktailGram + " грамм.");
+        System.out.println("РњР°СЃСЃР° Р·Р°РІС‚СЂР°РєР° РґР»СЏ СЃРїРѕСЂС‚СЃРјРµРЅР° " + massOfCocktailGram + " РіСЂР°РјРј.");
         var massOfCocktailKilogram = massOfCocktailGram / 1000;
-        System.out.println("Масса завтра для спортсмена " + massOfCocktailKilogram + " Кг.");
-//задача №4
+        System.out.println("РњР°СЃСЃР° Р·Р°РІС‚СЂР° РґР»СЏ СЃРїРѕСЂС‚СЃРјРµРЅР° " + massOfCocktailKilogram + " РљРі.");
+//Р·Р°РґР°С‡Р° в„–4
         System.out.println("--------------------------------------------------");
-        System.out.println("Задача №4 :");
+        System.out.println("Р—Р°РґР°С‡Р° в„–4 :");
         System.out.println("  ");
         var weightLossKilogram = 7;
         var weightLossGram = weightLossKilogram * 1000;
         var dietOne = 250;
         var daysDietOne = weightLossGram / dietOne;
-        System.out.println("Потребуется дней " + daysDietOne + " потребуется дней для похудения первым способом");
+        System.out.println("РџРѕС‚СЂРµР±СѓРµС‚СЃСЏ РґРЅРµР№ " + daysDietOne + " РїРѕС‚СЂРµР±СѓРµС‚СЃСЏ РґРЅРµР№ РґР»СЏ РїРѕС…СѓРґРµРЅРёСЏ РїРµСЂРІС‹Рј СЃРїРѕСЃРѕР±РѕРј");
         var dietTwo = 500;
         var daysDietTwo = weightLossGram / dietTwo;
-        System.out.println("потребуется дней " + daysDietTwo + " для похудения вторым способом");
-//задача №5
+        System.out.println("РїРѕС‚СЂРµР±СѓРµС‚СЃСЏ РґРЅРµР№ " + daysDietTwo + " РґР»СЏ РїРѕС…СѓРґРµРЅРёСЏ РІС‚РѕСЂС‹Рј СЃРїРѕСЃРѕР±РѕРј");
+//Р·Р°РґР°С‡Р° в„–5
         System.out.println("--------------------------------------------------");
-        System.out.println("Задача №5 :");
+        System.out.println("Р—Р°РґР°С‡Р° в„–5 :");
         System.out.println("  ");
 //Masha:
         var masha = 67760;
         var percentMasha = (masha*10)/100;
         var salaryIncreaseMasha = masha + percentMasha;
         var differenceMasha = percentMasha * 12;
-        System.out.println("Маша теперь получает " + salaryIncreaseMasha + " рублей. Годовой доход вырос на " + differenceMasha + " рублей.");
+        System.out.println("РњР°С€Р° С‚РµРїРµСЂСЊ РїРѕР»СѓС‡Р°РµС‚ " + salaryIncreaseMasha + " СЂСѓР±Р»РµР№. Р“РѕРґРѕРІРѕР№ РґРѕС…РѕРґ РІС‹СЂРѕСЃ РЅР° " + differenceMasha + " СЂСѓР±Р»РµР№.");
         System.out.println("  ");
 //Denis
         var Denis = 83690;
         var percentDenis = (Denis*10)/100;
         var salaryIncreaseDenis = Denis + percentDenis;
         var differenceDenis = percentDenis * 12;
-        System.out.println("Денис теперь получает " + salaryIncreaseDenis + " рублей. Годовой доход вырос на " + differenceDenis + " рублей.");
+        System.out.println("Р”РµРЅРёСЃ С‚РµРїРµСЂСЊ РїРѕР»СѓС‡Р°РµС‚ " + salaryIncreaseDenis + " СЂСѓР±Р»РµР№. Р“РѕРґРѕРІРѕР№ РґРѕС…РѕРґ РІС‹СЂРѕСЃ РЅР° " + differenceDenis + " СЂСѓР±Р»РµР№.");
         System.out.println("  ");
 //Kristina
         var Kristina = 76230;
         var percentKristina = (Kristina*10)/100;
         var salaryIncreaseKristina = Kristina + percentKristina;
         var differenceKristina = percentKristina * 12;
-        System.out.println("Кристина теперь получает " + salaryIncreaseKristina + " рублей. Годовой доход вырос на " + differenceKristina + " рублей.");
+        System.out.println("РљСЂРёСЃС‚РёРЅР° С‚РµРїРµСЂСЊ РїРѕР»СѓС‡Р°РµС‚ " + salaryIncreaseKristina + " СЂСѓР±Р»РµР№. Р“РѕРґРѕРІРѕР№ РґРѕС…РѕРґ РІС‹СЂРѕСЃ РЅР° " + differenceKristina + " СЂСѓР±Р»РµР№.");
         System.out.println("--------------------------------------------------");
         System.out.println(" End. ");
+
     }
 }
