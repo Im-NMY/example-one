@@ -2,77 +2,77 @@ package ru.skypro.Conditional_operator;
 
 public class Conditional_operator {
     public static void main(String[] args) {
-        System.out.println("Условный оператор");
-//задача №1
+        System.out.println("РЈСЃР»РѕРІРЅС‹Р№ РѕРїРµСЂР°С‚РѕСЂ");
+//Р·Р°РґР°С‡Р° в„–1
         System.out.println("--------------------------------------------------");
-        System.out.println("Задача №1 :");
+        System.out.println("Р—Р°РґР°С‡Р° в„–1 :");
         System.out.println("  ");
-        int clientOS = 1;      // : вводим версию ОС для смартфона (1 или 0) :
+        int clientOS = 1;      // : РІРІРѕРґРёРј РІРµСЂСЃРёСЋ РћРЎ РґР»СЏ СЃРјР°СЂС‚С„РѕРЅР° (1 РёР»Рё 0) :
         if (clientOS == 0)
-            System.out.println("Установите версию приложения для iOS по ссылке: ...");
+            System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ iOS РїРѕ СЃСЃС‹Р»РєРµ: ...");
         if (clientOS == 1)
-            System.out.println("Установите версию приложения для Android по ссылке: ...");
-//задача №2
+            System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ Android РїРѕ СЃСЃС‹Р»РєРµ: ...");
+//Р·Р°РґР°С‡Р° в„–2
         System.out.println("--------------------------------------------------");
-        System.out.println("Задача №2 :");
+        System.out.println("Р—Р°РґР°С‡Р° в„–2 :");
         System.out.println("  ");
-        int clientDeviceYear = 2013;      // : вводим год смартфона (до 2015 версии считаються устаревшими!) :
+        int clientDeviceYear = 2013;      // : РІРІРѕРґРёРј РіРѕРґ СЃРјР°СЂС‚С„РѕРЅР° (РґРѕ 2015 РІРµСЂСЃРёРё СЃС‡РёС‚Р°СЋС‚СЊСЃСЏ СѓСЃС‚Р°СЂРµРІС€РёРјРё!) :
         if (clientOS == 0 && clientDeviceYear >= 2015) {
-            System.out.println("Установите версию приложения для iOS по ссылке");
+            System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ iOS РїРѕ СЃСЃС‹Р»РєРµ");
         } else if (clientOS == 0 && clientDeviceYear < 2015) {
-            System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+            System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РѕР±Р»РµРіС‡РµРЅРЅСѓСЋ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ iOS РїРѕ СЃСЃС‹Р»РєРµ");
         }
         if (clientOS == 1 && clientDeviceYear >= 2015) {
-            System.out.println("Установите версию приложения для Android по ссылке");
+            System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ Android РїРѕ СЃСЃС‹Р»РєРµ");
         } else if (clientOS == 1 && clientDeviceYear < 2015) {
-            System.out.println("Установите облегченную версию приложения для Android по ссылке");
+            System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РѕР±Р»РµРіС‡РµРЅРЅСѓСЋ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ Android РїРѕ СЃСЃС‹Р»РєРµ");
         }
-//задача №3
+//Р·Р°РґР°С‡Р° в„–3
         System.out.println("--------------------------------------------------");
-        System.out.println("Задача №3 :");
+        System.out.println("Р—Р°РґР°С‡Р° в„–3 :");
         System.out.println("  ");
-        int year = 2022;         // : вводим год для определения високосный или не високосный :
+        int year = 2022;         // : РІРІРѕРґРёРј РіРѕРґ РґР»СЏ РѕРїСЂРµРґРµР»РµРЅРёСЏ РІРёСЃРѕРєРѕСЃРЅС‹Р№ РёР»Рё РЅРµ РІРёСЃРѕРєРѕСЃРЅС‹Р№ :
         if (year % 4 == 0) {
             if (year % 100 != 0 || year % 400 == 0) ;
-            System.out.println(year + " год является високосным!");
+            System.out.println(year + " РіРѕРґ СЏРІР»СЏРµС‚СЃСЏ РІРёСЃРѕРєРѕСЃРЅС‹Рј!");
         } else {
             if (year % 4 != 0) ;
             if (year % 100 == 0 || year % 400 != 0) ;
-            System.out.println(year + " год не является високосным!");
+            System.out.println(year + " РіРѕРґ РЅРµ СЏРІР»СЏРµС‚СЃСЏ РІРёСЃРѕРєРѕСЃРЅС‹Рј!");
         }
-//задача №4
+//Р·Р°РґР°С‡Р° в„–4
         System.out.println("--------------------------------------------------");
-        System.out.println("Задача №4 :");
+        System.out.println("Р—Р°РґР°С‡Р° в„–4 :");
         System.out.println("  ");
-        int deliveryDistance = 95;    // : вводим дистанцию до клиента  :
+        int deliveryDistance = 95;    // : РІРІРѕРґРёРј РґРёСЃС‚Р°РЅС†РёСЋ РґРѕ РєР»РёРµРЅС‚Р°  :
         if (deliveryDistance < 20) {
-            System.out.println("Потребуется дней: (1) one day");
+            System.out.println("РџРѕС‚СЂРµР±СѓРµС‚СЃСЏ РґРЅРµР№: (1) one day");
         } else if (deliveryDistance >= 20 && deliveryDistance < 60) {
-            System.out.println("Потребуется дней: (2) two days");
+            System.out.println("РџРѕС‚СЂРµР±СѓРµС‚СЃСЏ РґРЅРµР№: (2) two days");
         } else if (deliveryDistance >= 60 && deliveryDistance <= 100) {
-            System.out.println("Потребуется дней: (3) three days");
+            System.out.println("РџРѕС‚СЂРµР±СѓРµС‚СЃСЏ РґРЅРµР№: (3) three days");
         }
-//задача №5
+//Р·Р°РґР°С‡Р° в„–5
         System.out.println("--------------------------------------------------");
-        System.out.println("Задача №5 :");
+        System.out.println("Р—Р°РґР°С‡Р° в„–5 :");
         System.out.println("  ");
         int monthNumber;
-        monthNumber = 12; // : вводим число месяца года ( от 1  :
+        monthNumber = 12; // : РІРІРѕРґРёРј С‡РёСЃР»Рѕ РјРµСЃСЏС†Р° РіРѕРґР° ( РѕС‚ 1  :
         switch (monthNumber){
             case 12,1,2:
-                System.out.println("Зима (winter)");
+                System.out.println("Р—РёРјР° (winter)");
                 break;
             case 3,4,5:
-                System.out.println("Весна (Spring)");
+                System.out.println("Р’РµСЃРЅР° (Spring)");
                 break;
             case 6,7,8:
-                System.out.println("Лето (summer)");
+                System.out.println("Р›РµС‚Рѕ (summer)");
                 break;
             case 9,10,11:
-                System.out.println("Осень (autumn)");
+                System.out.println("РћСЃРµРЅСЊ (autumn)");
                 break;
             default:
-                System.out.println("Неверно введен месяц (entered month incorrectly)");
+                System.out.println("РќРµРІРµСЂРЅРѕ РІРІРµРґРµРЅ РјРµСЃСЏС† (entered month incorrectly)");
         }
         System.out.println("--------------------------------------------------");
         System.out.println("End.");
